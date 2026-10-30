@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "app.py": {
+      "maxDuration": 60,
+      "excludeFiles": "{tests/**,scripts/**,results/screenshots/**,results/alerts_*.csv,results/architecture.svg,README.md,.env*,storage/**,data/netmon.db}"
+    }
+  }
+}

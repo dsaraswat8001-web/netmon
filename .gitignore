@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.env
+.env.local
+.env*.local
+.vercel
+data/netmon.db
+storage/
+.pytest_cache/

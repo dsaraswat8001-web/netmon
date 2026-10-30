@@ -1,0 +1,6 @@
+-r requirements.txt
+# not needed by the web app on Vercel, kept out of the function bundle
+gunicorn==26.2.0
+pyarrow==26.0.0        # scripts/evaluate.py and build_baseline.py read the CIC Parquet files
+pytest
+# scapy                # only for scripts/capture.py
